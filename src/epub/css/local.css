@@ -1,8 +1,8 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
-/* required if using [xml|lang] */
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
+/* required if using [xml|lang] */
 /* abbreviations */
 abbr[epub|type~="z3998:acronym"],
 abbr[epub|type~="se:era"],
@@ -93,10 +93,12 @@ section[epub|type~="dedication"] > *{
 [epub|type~="epigraph"] span.elision{
 	font-style: normal;
 }
+
 /* play quotes */
 [epub|type~="epigraph"] [epub|type~="z3998:persona"]{
 	font-style: normal;
 }
+
 /* headings */
 [epub|type~="epigraph"] h2{
 	font-style: normal;
@@ -207,6 +209,7 @@ figure{
 /* end of images
 
 /* letters */
+
 [epub|type~="z3998:letter"] header{
 	text-align: right;
 }
