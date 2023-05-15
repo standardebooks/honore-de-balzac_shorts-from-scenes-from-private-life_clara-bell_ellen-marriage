@@ -274,3 +274,11 @@ span.elision{
 	margin-left: 3em;
 }
 /* end of poem/verse/song */
+
+/* custom */
+#the-imaginary-mistress blockquote:nth-of-type(2) p:nth-of-type(6){
+	font-style: italic;
+	margin-top: 1em;
+	text-align: right;
+}
+/* end of custom */
