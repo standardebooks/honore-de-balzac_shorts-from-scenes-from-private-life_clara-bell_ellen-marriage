@@ -93,6 +93,10 @@ header > [epub|type~="dedication"]{
 	text-indent: 0;
 }
 
+q i {
+	font-style: normal;
+}
+
 #la-grenadiere blockquote{
 	font-variant: all-small-caps;
 	line-height: 2em;
