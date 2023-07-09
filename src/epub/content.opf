@@ -34,7 +34,7 @@
 		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="se:subject">Shorts</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
@@ -174,8 +174,8 @@
 		<item href="text/gobseck.xhtml" id="gobseck.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/honorine.xhtml" id="honorine.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-		<item href="text/le-grand-breteche.xhtml" id="le-grand-breteche.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/le-grenadiere.xhtml" id="le-grenadiere.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/la-grande-breteche.xhtml" id="la-grande-breteche.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/la-grenadiere.xhtml" id="la-grenadiere.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/madame-firmiani.xhtml" id="madame-firmiani.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-atheists-mass.xhtml" id="the-atheists-mass.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-ball-at-sceaux.xhtml" id="the-ball-at-sceaux.xhtml" media-type="application/xhtml+xml"/>
@@ -204,8 +204,8 @@
 		<itemref idref="a-study-of-woman.xhtml"/>
 		<itemref idref="the-imaginary-mistress.xhtml"/>
 		<itemref idref="the-message.xhtml"/>
-		<itemref idref="le-grand-breteche.xhtml"/>
-		<itemref idref="le-grenadiere.xhtml"/>
+		<itemref idref="la-grande-breteche.xhtml"/>
+		<itemref idref="la-grenadiere.xhtml"/>
 		<itemref idref="the-deserted-woman.xhtml"/>
 		<itemref idref="honorine.xhtml"/>
 		<itemref idref="gobseck-dedication.xhtml"/>
