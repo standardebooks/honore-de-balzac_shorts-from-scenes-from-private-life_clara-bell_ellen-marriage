@@ -101,7 +101,6 @@ q i {
 	font-variant: all-small-caps;
 	line-height: 2em;
 	text-align: center;
-	text-indent: 0;
 }
 
 #la-grenadiere blockquote b{
@@ -110,6 +109,10 @@ q i {
 
 #la-grenadiere blockquote em{
 	font-variant: none;
+}
+
+#la-grenadiere blockquote p {
+	text-indent: 0;
 }
 
 #the-imaginary-mistress blockquote:nth-of-type(2) p:nth-of-type(6){
