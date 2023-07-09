@@ -1,80 +1,39 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
-@namespace xml "http://www.w3.org/XML/1998/namespace";
-
-/* blockquote in foreign-language */
-blockquote[xml|lang]{
-	font-style: italic;
-}
-/* end of foreign-language blockquote */
 
 /* letters */
-[epub|type~="z3998:letter"] header{
-	text-align: right;
-}
-
 footer{
 	margin-top: 1em;
 	text-align: right;
 }
 
-[epub|type~="z3998:salutation"] + p,
-[epub|type~="z3998:letter"] header + p{
+[epub|type~="z3998:salutation"] + p{
 	text-indent: 0;
 }
 
 [epub|type~="z3998:sender"],
-[epub|type~="z3998:recipient"],
 [epub|type~="z3998:salutation"],
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
-
-[epub|type~="z3998:postscript"]{
-	margin-top: 1em;
-	text-align: initial;
-	text-indent: 0;
-}
 /* end of letters */
 
-/* poem/verse/song */
-[epub|type~="z3998:verse"] p{
-	text-align: initial;
-	text-indent: 0;
-}
-
-[epub|type~="z3998:verse"] p > span{
-	display: block;
-	padding-left: 1em;
-	text-indent: -1em;
-}
-
-[epub|type~="z3998:verse"] p > span + br{
-	display: none;
-}
-
-[epub|type~="z3998:verse"] p + p{
-	margin-top: 1em;
-}
-
-p span.i1{
-	padding-left: 2em;
-	text-indent: -1em;
-}
-
-p span.i2{
-	padding-left: 3em;
-	text-indent: -1em;
-}
-
 /* vertical elision ⋮ */
-span.elision{
+.elision{
 	margin: .5em;
 	margin-left: 3em;
 }
-/* end of poem/verse/song */
+/* end of vertical elision */
 
 /* custom */
+q{
+	font-style: italic;
+}
+
+q i{
+	font-style: normal;
+}
+
 section[epub|type~="dedication"]{
 	margin-top: 20vh;
 }
@@ -93,10 +52,6 @@ header > [epub|type~="dedication"]{
 	text-indent: 0;
 }
 
-q i {
-	font-style: normal;
-}
-
 #la-grenadiere blockquote{
 	font-variant: all-small-caps;
 	line-height: 2em;
@@ -111,7 +66,7 @@ q i {
 	font-variant: none;
 }
 
-#la-grenadiere blockquote p {
+#la-grenadiere blockquote p{
 	text-indent: 0;
 }
 
