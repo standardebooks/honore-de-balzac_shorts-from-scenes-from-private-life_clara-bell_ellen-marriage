@@ -114,6 +114,7 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Honor%C3%A9_de_Balzac</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79071094</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">aui</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<dc:contributor id="translator-1">Clara Bell</dc:contributor>
 		<meta property="file-as" refines="#translator-1">Bell, Clara</meta>
@@ -170,8 +171,10 @@
 		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/gobseck-dedication.xhtml" id="gobseck-dedication.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/gobseck.xhtml" id="gobseck.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/honorine.xhtml" id="honorine.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/introduction.xhtml" id="introduction.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/la-grande-breteche.xhtml" id="la-grande-breteche.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/la-grenadiere.xhtml" id="la-grenadiere.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/madame-firmiani.xhtml" id="madame-firmiani.xhtml" media-type="application/xhtml+xml"/>
@@ -183,14 +186,16 @@
 		<item href="text/the-message.xhtml" id="the-message.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-purse-dedication.xhtml" id="the-purse-dedication.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-purse.xhtml" id="the-purse.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-vendetta.xhtml" id="the-vendetta.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/the-vendetta.xhtml" id="the-vendetta.xhtml" media-type="application/xhtml+xml"/>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="introduction.xhtml"/>
+		<itemref idref="halftitlepage.xhtml"/>
 		<itemref idref="at-the-sign-of-the-cat-and-racket.xhtml"/>
 		<itemref idref="the-ball-at-sceaux.xhtml"/>
 		<itemref idref="the-purse-dedication.xhtml"/>
