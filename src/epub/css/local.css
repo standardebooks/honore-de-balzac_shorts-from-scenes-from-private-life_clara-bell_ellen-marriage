@@ -52,22 +52,26 @@ header > [epub|type~="dedication"]{
 	text-indent: 0;
 }
 
-#la-grenadiere blockquote{
+#la-grenadiere blockquote:last-of-type{
 	font-variant: all-small-caps;
-	line-height: 2em;
+	line-height: 1.5em;
 	text-align: center;
 }
 
-#la-grenadiere blockquote b{
+#la-grenadiere blockquote:last-of-type b{
 	font-size: 1.25em;
 }
 
-#la-grenadiere blockquote em{
-	font-variant: none;
+#la-grenadiere blockquote:last-of-type em{
+	font-variant: initial;
 }
 
-#la-grenadiere blockquote p{
+#la-grenadiere blockquote:last-of-type p{
 	text-indent: 0;
+}
+
+#the-deserted-woman header p:last-of-type{
+	text-align: right;
 }
 
 #the-imaginary-mistress blockquote:nth-of-type(2) p:nth-of-type(6){
