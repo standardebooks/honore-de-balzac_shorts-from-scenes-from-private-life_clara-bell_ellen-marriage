@@ -110,7 +110,6 @@
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/honore-de-balzac_shorts-from-scenes-from-private-life_clara-bell_ellen-marriage</meta>
 		<dc:creator id="author">Honoré de Balzac</dc:creator>
 		<meta property="file-as" refines="#author">Balzac, Honoré de</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Honor%C3%A9_de_Balzac</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79071094</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
@@ -126,10 +125,10 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-2">https://en.wikipedia.org/wiki/Ellen_Marriage</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator-2">http://id.loc.gov/authorities/names/no89008943</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Jean-François Gigoux</dc:contributor>
+		<meta property="file-as" refines="#artist">Gigoux, Jean-François</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Jean_Gigoux</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr93045191</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">John Bickers</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Bickers, John</meta>
