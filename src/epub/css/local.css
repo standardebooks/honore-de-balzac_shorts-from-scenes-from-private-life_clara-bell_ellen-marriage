@@ -54,7 +54,7 @@ header > [epub|type~="dedication"]{
 
 #la-grenadiere blockquote:last-of-type{
 	font-variant: all-small-caps;
-	line-height: 1.5em;
+	line-height: 1.5;
 	text-align: center;
 }
 
