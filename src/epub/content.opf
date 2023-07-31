@@ -44,67 +44,56 @@
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<!-- transcriptions -->
-		<!-- A Second Home -->
-		<dc:source>https://www.gutenberg.org/ebooks/1810</dc:source>
-		<!-- Another Study of Woman -->
-		<dc:source>https://www.gutenberg.org/ebooks/1714</dc:source>
 		<!-- At the Sign of the Cat and Racket -->
 		<dc:source>https://www.gutenberg.org/ebooks/1680</dc:source>
-		<!-- Colonel Chabert-->
-		<dc:source>https://www.gutenberg.org/ebooks/1954</dc:source>
-		<!-- Domestic Peace-->
-		<dc:source>https://www.gutenberg.org/ebooks/1411</dc:source>
-		<!--Gobseck -->
-		<dc:source>https://www.gutenberg.org/ebooks/1389</dc:source>
-		<!-- Honorine -->
-		<dc:source>https://www.gutenberg.org/ebooks/1683</dc:source>
-		<!-- La Grenadiere -->
-		<dc:source>https://www.gutenberg.org/ebooks/1428</dc:source>
-		<!-- Madame Firmiani -->
-		<dc:source>https://www.gutenberg.org/ebooks/1357</dc:source>
-		<!-- Paz-->
-		<dc:source>https://www.gutenberg.org/ebooks/1369</dc:source>
-		<!-- Study of a Woman -->
-		<dc:source>https://www.gutenberg.org/ebooks/1373</dc:source>
-		<!-- The Atheists Mass -->
-		<dc:source>https://www.gutenberg.org/ebooks/1220</dc:source>
 		<!-- The Ball at Sceaux -->
 		<dc:source>https://www.gutenberg.org/ebooks/1305</dc:source>
-		<!-- The Commission in Lunacy -->
-		<dc:source>https://www.gutenberg.org/ebooks/1410</dc:source>
-		<!-- The Deserted Woman -->
-		<dc:source>https://www.gutenberg.org/ebooks/1729</dc:source>
-		<!-- The Grand Breteche -->
-		<dc:source>https://www.gutenberg.org/ebooks/1710</dc:source>
-		<!-- The Message-->
-		<dc:source>https://www.gutenberg.org/ebooks/1189</dc:source>
 		<!-- The Purse-->
 		<dc:source>https://www.gutenberg.org/ebooks/1196</dc:source>
-		<!-- Vendetta -->
-		<dc:source>https://www.gutenberg.org/ebooks/1374</dc:source>
+		<!-- A Second Home -->
+		<dc:source>https://www.gutenberg.org/ebooks/1810</dc:source>
+		<!-- Domestic Peace-->
+		<dc:source>https://www.gutenberg.org/ebooks/1411</dc:source>
+		<!-- The Message-->
+		<dc:source>https://www.gutenberg.org/ebooks/1189</dc:source>
+		<!-- La Grand Bretêche -->
+		<dc:source>https://www.gutenberg.org/ebooks/1710</dc:source>
+		<!-- La Grenadière -->
+		<dc:source>https://www.gutenberg.org/ebooks/1428</dc:source>
+		<!-- The Deserted Woman -->
+		<dc:source>https://www.gutenberg.org/ebooks/1729</dc:source>
+		<!-- Honorine -->
+		<dc:source>https://www.gutenberg.org/ebooks/1683</dc:source>
+		<!--Gobseck -->
+		<dc:source>https://www.gutenberg.org/ebooks/1389</dc:source>
+		<!-- Colonel Chabert-->
+		<dc:source>https://www.gutenberg.org/ebooks/1954</dc:source>
+		<!-- The Atheists Mass -->
+		<dc:source>https://www.gutenberg.org/ebooks/1220</dc:source>
+		<!-- The Commission in Lunacy -->
+		<dc:source>https://www.gutenberg.org/ebooks/1410</dc:source>
+		<!-- Another Study of Woman -->
+		<dc:source>https://www.gutenberg.org/ebooks/1714</dc:source>
 		<!-- scans -->
 		<!-- Balzac's 1842 introduction -->
 		<dc:source>https://archive.org/details/TheWorksOfHonoreDeBalzacVolI</dc:source>
+		<!-- A Study of Woman, Another Study of Woman, La Grande Bretéche, Domestic Peace, The Imaginary Mistress -->
+		<dc:source>https://archive.org/details/worksofhonorde05balzuoft</dc:source>
+		<!-- At the Sign of the Cat and Racket, The Ball at Sceaux, The Purse, Madame Firmiani -->
+		<dc:source>https://archive.org/details/worksofhonorde07balzuoft</dc:source>
+		<!-- Honorine -->
+		<dc:source>https://archive.org/details/worksofhonorde08balzuoft</dc:source>
+		<!-- The Deserted Woman, La Grenadière, The Message, Gobseck -->
+		<dc:source>https://archive.org/details/daughterofevelet00balziala</dc:source>
 		<!-- A Second Home -->
-		<dc:source>https://archive.org/details/comdiehumainew11balzuoft</dc:source>
-		<!-- Another Study of Woman -->
-		<dc:source>https://archive.org/details/comediehumaine16balz</dc:source>
-		<!-- At the Sign of the Cat and Racket, The Ball at Sceaux, The Purse -->
-		<dc:source>https://archive.org/details/atsignofcatracke00balziala</dc:source>
-		<!-- A Start in Life, Vendetta, Study of a Woman, The Message,
-		Madame Firmiani -->
-		<dc:source>https://archive.org/details/lacomdiehumaine12wormgoog</dc:source>
-		<!-- Honorine, Colonel Chabert, The Atheist's Mass, The Commission in Lunacy -->
-		<dc:source>https://archive.org/details/atheistsmassothe0000balz</dc:source>
-		<!-- Domestic Peace-->
-		<dc:source>https://archive.org/details/bachelorsestabli00balz</dc:source>
-		<!-- The Message, La Grenadiere, The Deserted Woman, Gobseck, A Woman of Thirty -->
-		<dc:source>https://archive.org/details/womanofthirtylaf00balz_0</dc:source>
-		<!-- Paz-->
-		<dc:source>https://archive.org/details/albertsavarus00balz</dc:source>
-		<!-- The Grand Breteche -->
-		<dc:source>https://archive.org/details/EugenieGrandet_769</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/worksofhonorde11balzuoft</dc:source>
+		<!-- The Atheist's Mass -->
+		<dc:source>https://archive.org/details/worksofhonorde12balzuoft</dc:source>
+		<!-- The Commission in Lunacy -->
+		<dc:source>https://archive.org/details/worksofhonorde14balzuoft</dc:source>
+		<!-- Vendetta, Colonel Chabert -->
+		<dc:source>https://archive.org/details/worksofhonorde18balzuoft</dc:source>
+		<meta property="se:production-notes">The PG transcriptions of the works in the Human Comedy are split between two editions and therefore two sets of translators. The edition edited by George Saintsbury is more highly regarded for the quality of its translation, so transcriptions were created for the stories in this collection that were not from that edition.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/honore-de-balzac_shorts-from-scenes-from-private-life_clara-bell_ellen-marriage</meta>
