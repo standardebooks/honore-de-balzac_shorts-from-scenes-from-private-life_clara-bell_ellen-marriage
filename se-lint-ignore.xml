@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="gobseck.xhtml">
+		<ignore>
+			<code>s-036</code>
+			<reason>The dedication is embedded in the short, so the body semantic reflects the short's semantic, not the dedication's.</reason>
+		</ignore>
+	</file>
 	<file path="the-deserted-woman.xhtml">
 		<ignore>
 			<code>t-003</code>
 			<reason>The dialog is spread across multiple paragraphs, and has elision in the middle.</reason>
+		</ignore>
+	</file>
+	<file path="the-purse.xhtml">
+		<ignore>
+			<code>s-036</code>
+			<reason>The dedication is embedded in the short, so the body semantic reflects the short's semantic, not the dedication's.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>

@@ -36,6 +36,7 @@ q i{
 
 section[epub|type~="dedication"]{
 	margin-top: 20vh;
+	break-after: page;
 }
 
 section[epub|type~="dedication"] > header + p{
