@@ -73,12 +73,12 @@ header > [epub|type~="dedication"]{
 	text-indent: 0;
 }
 
-#the-deserted-woman header p:last-of-type,
+#the-deserted-woman header span[epub|type~="z3998:signature"],
 #the-commission-in-lunacy header p:last-of-type{
 	text-align: right;
 }
 
-#the-imaginary-mistress blockquote:nth-of-type(2) p:nth-of-type(6){
+#the-imaginary-mistress [epub|type~="se:letter.dateline"]{
 	font-style: italic;
 	margin-top: 1em;
 	text-align: right;
