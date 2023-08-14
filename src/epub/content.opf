@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/honore-de-balzac/shorts-from-scenes-from-private-life/clara-bell_ellen-marriage</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2023-08-14T17:58:54Z</dc:date>
+		<meta property="dcterms:modified">2023-08-14T17:58:54Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -40,13 +40,13 @@
 		<meta property="se:subject">Shorts</meta>
 		<meta id="collection-1" property="belongs-to-collection">The Human Comedy</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
-		<meta id="collection-2" property="belongs-to-collection">Scenes from Private Life</meta>
+		<meta id="collection-2" property="belongs-to-collection">The Human Comedy: Scenes from Private Life</meta>
 		<meta property="collection-type" refines="#collection-2">series</meta>
 		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">Short fiction from the “Scenes from Private Life” section of Balzac’s Human Comedy.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;The short stories and novellas from the &lt;i&gt;Scenes from Private Life&lt;/i&gt; portion of &lt;a href="https://standardebooks.org/ebooks/honore-de-balzac"&gt;Balzac’s&lt;/a&gt; &lt;i&gt;The Human Comedy&lt;/i&gt; represent a cross-section of French culture from the first half of the nineteenth century. There are drawing room intrigues of the rich (“Domestic Peace”), unrequited love (“The Imaginary Mistress”), a romance among the residents of a boarding house (“The Purse”), and even a Corsican vendetta (“The Vendetta”).&lt;/p&gt;
-			&lt;p&gt;Each of these, as well as the remaining stories in the collection, are marked by Balzac’s renowned talent for fully-realized characters, by his rich and detailed descriptions of places and people, and especially of the emotions that drive them. As a progenitor of the modern novel, he wanted to write about not only the romantic and beautiful, but also the hurtful and disturbing; in short, he wanted to write about daily French life, however good or bad it might be. Many of the characters so richly described here will be seen again and again throughout the rest of &lt;i&gt;The Human Comedy&lt;/i&gt;.&lt;/p&gt;
+			&lt;p&gt;The short stories and novellas from the &lt;a href="https://standardebooks.org/collections/the-human-comedy-scenes-from-private-life"&gt;Scenes from Private Life&lt;/a&gt; portion of &lt;a href="https://standardebooks.org/ebooks/honore-de-balzac"&gt;Balzac’s&lt;/a&gt; &lt;a href="https://standardebooks.org/collections/the-human-comedy"&gt;The Human Comedy&lt;/a&gt; represent a cross-section of French culture from the first half of the nineteenth century. There are drawing room intrigues of the rich (“Domestic Peace”), unrequited love (“The Imaginary Mistress”), a romance among the residents of a boarding house (“The Purse”), and even a Corsican vendetta (“The Vendetta”).&lt;/p&gt;
+			&lt;p&gt;Each of these, as well as the remaining stories in the collection, are marked by Balzac’s renowned talent for fully-realized characters, by his rich and detailed descriptions of places and people, and especially of the emotions that drive them. As a progenitor of the modern novel, he wanted to write about not only the romantic and beautiful, but also the hurtful and disturbing; in short, he wanted to write about daily French life, however good or bad it might be. Many of the characters so richly described here will be seen again and again throughout the rest of The Human Comedy.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<!-- TRANSCRIPTIONS -->
@@ -102,8 +102,8 @@
 		<meta property="se:production-notes">
 		The PG transcriptions of the works in the Human Comedy are split between two editions and therefore two sets of translators. The edition edited by George Saintsbury is more highly regarded for the quality of its translation, so transcriptions were created for the stories in this collection that were not from that edition.
 		The order of the stories is from the La Comédie Humaine Wikipedia page (https://en.wikipedia.org/wiki/La_Comédie_humaine), which was confirmed to match the "canonical" version from La Plaide (https://www.la-pleiade.fr/Auteur/Honore-de-Balzac).</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">322248</meta>
+		<meta property="se:reading-ease.flesch">66.67</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/honore-de-balzac_shorts-from-scenes-from-private-life_clara-bell_ellen-marriage</meta>
 		<dc:creator id="author">Honoré de Balzac</dc:creator>
 		<meta property="file-as" refines="#author">Balzac, Honoré de</meta>
@@ -150,6 +150,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
