@@ -73,7 +73,11 @@ header > [epub|type~="dedication"]{
 	text-indent: 0;
 }
 
-#the-deserted-woman header span[epub|type~="z3998:signature"],
+#the-deserted-woman header span[epub|type~="z3998:signature"]{
+	display: block;
+	text-align: right;
+}
+
 #the-commission-in-lunacy header p:last-of-type{
 	text-align: right;
 }
