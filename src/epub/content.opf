@@ -37,6 +37,7 @@
 		<meta property="term" refines="#subject-2">sh85061171</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2010103123</meta>
+		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
 		<meta id="collection-1" property="belongs-to-collection">The Human Comedy</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
