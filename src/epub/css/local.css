@@ -62,7 +62,7 @@ header > [epub|type~="dedication"]{
 }
 
 #la-grenadiere blockquote:last-of-type b{
-	font-size: 1.25em;
+	font-size: larger;
 }
 
 #la-grenadiere blockquote:last-of-type em{
