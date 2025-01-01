@@ -55,6 +55,10 @@ header > [epub|type~="dedication"]{
 	text-indent: 0;
 }
 
+header p[epub|type~="z3998:signature"]{
+	text-align: right;
+}
+
 #la-grenadiere blockquote:last-of-type{
 	font-variant: all-small-caps;
 	line-height: 1.5;
@@ -75,10 +79,6 @@ header > [epub|type~="dedication"]{
 
 #the-deserted-woman header span[epub|type~="z3998:signature"]{
 	display: block;
-	text-align: right;
-}
-
-#the-commission-in-lunacy header p:last-of-type{
 	text-align: right;
 }
 
