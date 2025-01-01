@@ -87,4 +87,18 @@ header > [epub|type~="dedication"]{
 	margin-top: 1em;
 	text-align: right;
 }
+
+#pierre-grassou blockquote{
+	text-align: center;
+}
+
+#pierre-grassou blockquote p{
+	margin-bottom: 1em;
+	text-indent: 0;
+}
+
+#pierre-grassou blockquote p:first-child,
+#pierre-grassou blockquote p:nth-child(3) {
+	font-variant: small-caps;
+}
 /* end of custom */
