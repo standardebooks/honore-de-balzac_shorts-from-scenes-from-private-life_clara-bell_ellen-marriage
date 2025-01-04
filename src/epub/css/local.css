@@ -26,6 +26,22 @@ footer{
 /* end of vertical elision */
 
 /* custom */
+header > p[epub|type~="dedication"]{
+	display: inline-block;
+	font-style: italic;
+	max-width: 80%;
+}
+
+header > div[epub|type~="dedication"]{
+	margin-inline: 10%;
+	text-align: initial;
+}
+
+header [epub|type~="z3998:signature"]{
+	font-style: initial;
+	text-align: right;
+}
+
 q{
 	font-style: italic;
 }
@@ -34,29 +50,20 @@ q i{
 	font-style: normal;
 }
 
-section[epub|type~="dedication"]{
-	break-after: page;
-	margin-top: 20vh;
-}
-
-section[epub|type~="dedication"] > header + p{
+[epub|type~="dedication"] > header + p{
 	margin-top: 1em;
 }
 
-section[epub|type~="dedication"] > header p{
+[epub|type~="dedication"] > header p{
 	font-style: italic;
 }
 
-header > [epub|type~="dedication"]{
-	display: inline-block;
-	font-style: italic;
-	max-width: 60%;
-	text-align: justify;
-	text-indent: 0;
+section[epub|type~="dedication"]{
+	break-after: page;
 }
 
-header p[epub|type~="z3998:signature"]{
-	text-align: right;
+section[id$="-body"]{
+	margin-top: 20vh;
 }
 
 #la-grenadiere blockquote:last-of-type{
@@ -88,17 +95,21 @@ header p[epub|type~="z3998:signature"]{
 	text-align: right;
 }
 
-#pierre-grassou blockquote{
+#pierre-grassou blockquote:last-of-type {
 	text-align: center;
 }
 
-#pierre-grassou blockquote p{
+#pierre-grassou blockquote:last-of-type p{
 	margin-bottom: 1em;
 	text-indent: 0;
 }
 
-#pierre-grassou blockquote p:first-child,
-#pierre-grassou blockquote p:nth-child(3) {
+#pierre-grassou blockquote:last-of-type p:first-child,
+#pierre-grassou blockquote:last-of-type p:nth-child(3) {
 	font-variant: small-caps;
+}
+
+#pierre-grassou [epub|type~="dedication"]{
+	font-style: initial;
 }
 /* end of custom */
