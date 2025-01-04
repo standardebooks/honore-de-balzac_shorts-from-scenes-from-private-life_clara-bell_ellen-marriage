@@ -179,6 +179,7 @@
 		<item href="text/la-grande-breteche.xhtml" id="la-grande-breteche.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/la-grenadiere.xhtml" id="la-grenadiere.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/madame-firmiani.xhtml" id="madame-firmiani.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/pierre-grassou.xhtml" id="pierre-grassou.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-atheists-mass.xhtml" id="the-atheists-mass.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-ball-at-sceaux.xhtml" id="the-ball-at-sceaux.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-commission-in-lunacy.xhtml" id="the-commission-in-lunacy.xhtml" media-type="application/xhtml+xml"/>
@@ -200,21 +201,22 @@
 		<itemref idref="the-ball-at-sceaux.xhtml"/>
 		<itemref idref="the-purse.xhtml"/>
 		<itemref idref="the-vendetta.xhtml"/>
+		<itemref idref="madame-firmiani.xhtml"/>
 		<itemref idref="a-second-home.xhtml"/>
 		<itemref idref="domestic-peace.xhtml"/>
-		<itemref idref="madame-firmiani.xhtml"/>
-		<itemref idref="a-study-of-woman.xhtml"/>
 		<itemref idref="the-imaginary-mistress.xhtml"/>
-		<itemref idref="the-message.xhtml"/>
+		<itemref idref="a-study-of-woman.xhtml"/>
+		<itemref idref="another-study-of-woman.xhtml"/>
 		<itemref idref="la-grande-breteche.xhtml"/>
-		<itemref idref="la-grenadiere.xhtml"/>
 		<itemref idref="the-deserted-woman.xhtml"/>
-		<itemref idref="honorine.xhtml"/>
+		<itemref idref="la-grenadiere.xhtml"/>
+		<itemref idref="the-message.xhtml"/>
 		<itemref idref="gobseck.xhtml"/>
+		<itemref idref="honorine.xhtml"/>
 		<itemref idref="colonel-chabert.xhtml"/>
 		<itemref idref="the-atheists-mass.xhtml"/>
 		<itemref idref="the-commission-in-lunacy.xhtml"/>
-		<itemref idref="another-study-of-woman.xhtml"/>
+		<itemref idref="pierre-grassou.xhtml"/>
 		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
