@@ -95,7 +95,7 @@ section[id$="-body"]{
 	text-align: right;
 }
 
-#pierre-grassou blockquote:last-of-type {
+#pierre-grassou blockquote:last-of-type{
 	text-align: center;
 }
 
@@ -105,7 +105,7 @@ section[id$="-body"]{
 }
 
 #pierre-grassou blockquote:last-of-type p:first-child,
-#pierre-grassou blockquote:last-of-type p:nth-child(3) {
+#pierre-grassou blockquote:last-of-type p:nth-child(3){
 	font-variant: small-caps;
 }
 
